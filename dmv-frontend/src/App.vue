@@ -8,17 +8,17 @@
     </v-toolbar>
 
     <v-content>
-      stuff
+      <company-table></company-table>
     </v-content>
   </v-app>
 </template>
 
 <script>
-
+import CompanyTable from './components/CompanyTable.vue';
 export default {
   name: 'App',
   components: {
-    
+    CompanyTable
   },
   data () {
     return {
